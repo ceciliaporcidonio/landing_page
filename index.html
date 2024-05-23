@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa Junina - Meu Aniversário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Arraiá da Cecília</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#tickets">Ingressos</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </div>
+    </header>
+    
+    <section class="carousel" id="home">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/imagem1.jpg" alt="Imagem 1">
+                <img src="images/imagem2.jpg" alt="Imagem 2">
+                <img src="images/imagem3.jpg" alt="Imagem 3">
+            </div>
+        </div>
+    </section>
+    
+    <section class="event-info">
+        <h2>Informações do Evento</h2>
+        <p>Venha celebrar meu aniversário em uma divertida festa junina! Data: 18/06.</p>
+        <div class="countdown">
+            <h3>Contagem Regressiva</h3>
+            <div id="countdown-timer">
+                <span id="days"></span> dias 
+                <span id="hours"></span> horas 
+                <span id="minutes"></span> minutos 
+                <span id="seconds"></span> segundos 
+            </div>
+        </div>
+    </section>
+    
+    <section id="tickets" class="tickets">
+        <div class="tickets-content">
+            <div class="tickets-image">
+                <img src="images/ingressos.jpeg" alt="Ingressos">
+            </div>
+            <div class="tickets-form">
+                <h2>Ingressos</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <button type="submit">Avançar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato em nosso WhatsApp:</p>
+        <img src="images/logo.png" alt="WhatsApp Logo" class="whatsapp-logo">
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Festa Junina. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
